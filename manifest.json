@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Web2QR",
+    "version": "1.0",
+    "description": "Generate QR codes for web pages.",
+    "icons": {
+      "128": "web2qr.png"
+    },
+    "permissions": [
+      "activeTab"
+    ],
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "48": "web2qr48.png",
+        "128": "web2qr.png"
+      }
+    }
+  }
